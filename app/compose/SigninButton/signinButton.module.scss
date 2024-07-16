@@ -1,0 +1,17 @@
+.button{
+    background-color: rgb(78, 78, 78);
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 12px;
+    color: aliceblue;
+    border: solid 1px rgb(43, 43, 43);
+    box-shadow:  1px 1px 5px rgb(53, 53, 53);
+    transition: 0.3s;
+    
+    &:hover{
+        background-color: rgb(112, 112, 112);
+        box-shadow:inset  1px 1px 5px rgb(145, 144, 144);
+        
+        
+    }
+}
